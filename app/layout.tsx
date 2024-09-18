@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Icons } from '@/components/icons';
 import { Open_Sans } from 'next/font/google';
 import { baseUrl } from './sitemap';
+import { Analytics } from '@vercel/analytics/react';
 
 const openSans = Open_Sans({
     subsets: ['latin'],
@@ -91,6 +92,7 @@ export default function RootLayout({
                         <p>Inpiration for site → @alexjpate </p>
                     </footer>
                 </div>
+                <Analytics />
             </body>
         </html>
     );
