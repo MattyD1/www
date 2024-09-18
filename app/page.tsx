@@ -1,6 +1,4 @@
 import Bleed from '@/components/bleed';
-import Link from 'next/link';
-import Image from 'next/image';
 import React from 'react';
 import JobCard, { ExperienceProps } from '@/components/job-card';
 import ProjectCard, { ProjectProps } from '@/components/project-card';
