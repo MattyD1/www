@@ -79,7 +79,7 @@ const experience: ExperienceProps[] = [
         date: '2022',
         logo: '/pembina.png',
         flag: {
-            label: 'Intern',
+            label: 'Internship',
             backgroundColor: 'bg-yellow-100',
             textColor: 'text-yellow-700',
         },
@@ -91,7 +91,7 @@ const experience: ExperienceProps[] = [
         date: '2021',
         logo: '/invico.svg',
         flag: {
-            label: 'Intern',
+            label: 'Internship',
             backgroundColor: 'bg-yellow-100',
             textColor: 'text-yellow-700',
         },
@@ -110,11 +110,11 @@ export default function Home() {
                     </span>
                 </h1>
                 <p className="text-slate-700 text-xl leading-normal">
-                    I graduated from the University of British Columbia with a
-                    degree in computer science and a minor in data science. I
-                    most recently worked with Rogers to maintain and improve the
-                    MyShaw app. Before that I worked with T.C. to create an
-                    internal tool to manage oil pipelines.
+                    I love skiing, bouldering, and lifting heavy weights. I also
+                    develop things, most recently I worked with Rogers to
+                    maintain and improve the MyShaw app. Before that I worked
+                    with T.C. to create an internal tool to manage oil
+                    pipelines.
                 </p>
             </section>
 
@@ -124,8 +124,8 @@ export default function Home() {
                     Personal Projects
                 </h2>
                 <p className="text-slate-700 text-lg">
-                    Here are a couple projects I&apos;ve worked on it my free
-                    time
+                    Sometimes I code for fun, here are some of the stuff
+                    I&apos;ve made.
                 </p>
                 <Bleed className="grid md:grid-cols-2 grid-flow-dense gap-8 mt-10">
                     {projects.map((project, index) => {
