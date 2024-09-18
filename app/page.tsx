@@ -73,7 +73,7 @@ const experience: ExperienceProps[] = [
 
     {
         company: 'Pembina Pipeline',
-        position: 'Software Developer',
+        position: 'IT Tier II Support',
         date: '2022',
         logo: '/pembina.png',
         flag: {
@@ -85,7 +85,7 @@ const experience: ExperienceProps[] = [
 
     {
         company: 'Invico Capital',
-        position: 'Software Developer',
+        position: 'Operations System Analyst',
         date: '2021',
         logo: '/invico.svg',
         flag: {
