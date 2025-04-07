@@ -13,7 +13,8 @@ const projects: ProjectProps[] = [
         imgUrl: '/flex.png',
     },
     {
-        href: 'https://www.calgarybisons.ca',
+        deprecated: true,
+        href: 'https://github.com/Canadian-Pro-Baseball-Academy/website',
         title: 'The Calgary Bisons Site',
         description:
             'A website for the Calgary Bisons organization, powered by an external CMS',
@@ -60,7 +61,7 @@ const experience: ExperienceProps[] = [
     {
         company: 'T.C. Energy',
         position: 'Software Developer',
-        date: '2023',
+        date: '2023 → 2024',
         logo: '/tc.png',
         description:
             'Worked as part of a team to create and deploy an internal tool to collect, organize, and manage data on pipelines.',

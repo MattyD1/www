@@ -8,6 +8,7 @@ export type ProjectProps = {
     description: string;
     imgUrl: string;
     current?: boolean;
+    deprecated?: boolean;
 };
 
 function ProjectCard({
@@ -16,6 +17,7 @@ function ProjectCard({
     description,
     imgUrl,
     current,
+    deprecated,
 }: ProjectProps) {
     return (
         <Link
@@ -42,6 +44,11 @@ function ProjectCard({
                     <span className="text-sm bg-green-200 text-green-700 py-1 px-2 ml-2 rounded-md">
                         In Progress
                     </span>
+                )}
+                {deprecated && (
+                    <span className="text-sm bg-red-200 text-red-700 py-1 px-2 ml-2 rounded-md">
+                        Offline
+                    </span>    
                 )}
             </h3>
 
